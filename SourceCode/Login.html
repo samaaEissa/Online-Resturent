@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+        <link href="Add_Meal.css" rel="stylesheet" />
+        <script src="Validation_JS.js"></script>
+
+    </head>
+    <body>
+       
+            <div class="topnav">
+       
+             
+              <a href="Home.html">Home</a>
+              <a href="Register.html">Register</a>
+              
+              <p> <img src="imag/Restaurant-logo.png" style="width: 100px;height: 100px;"> </p>
+            </div>
+
+             <form action="Login.php" method="POST" >
+                       <div  id="register" class="shadow-lg  rounded">
+                        <div class="row ">
+                           
+                          <div class=" col-md-6" >  
+                        
+                        <div class="flex-container">
+                          <div>
+                            
+                            <h1 class="text-center" >Login</h1>
+                        </div>
+                            <div class="row">
+                                 <div class="col-md-6">
+                                    <input class="form-control" type="text"  id="txtName"name="txtName" placeholder="Enter Your name">
+                             
+                                      </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="Password" id="Password" name="Password" placeholder="Enter your Password">
+                            </div> </div>
+                          
+                            <button class="btn btn-info    text-capitalize"  id="btn_AddMeal"  value="Register" onclick="return  ValidatLogin();" >Login </button>
+                             </div> </div><div class="col-md-6">
+                              <img src="imag/dining.jpg" style="height:400px;width: 600px; "/>
+                             </div> </div> </div>
+                    </form>
+                    <footer class="bg-light text-center text-lg-start">
+                        <div class="container p-4 pb-0">
+                         <form action="">   <div class="row">
+                              <div class="col-auto mb-4 mb-md-0">
+                               <p class="pt-2"><strong>Sign up for our newsletter</strong></p>
+                             </div>
+                             <div class="col-md-5 col-12 mb-4 mb-md-0">
+                             
+                               <div class="form-outline mb-4">
+                                 <input type="email" id="form5Example2" class="form-control" placeholder="Email address" />
+                           </div> </div>
+                             <div class="col-auto mb-4 mb-md-0"> 
+                                   <button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+                             </div> </div> </form> </div>
+                       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2) ;height: 60px; padding: 20px;">
+                         © 2020 Copyright: <a class="text-dark"> Samaa eissa</a>
+                       </div>
+                     
+                     </footer>                               
+    </body>
+</html>

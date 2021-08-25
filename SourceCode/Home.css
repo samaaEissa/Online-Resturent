@@ -1,0 +1,67 @@
+body{
+    background-image: url('imag/a-black-table.jpg');
+    font-family: "Verdana","Brush Script MT","Times New Roman", Times, serif; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   margin: 0px;
+ 
+}
+.topnav {
+    overflow: hidden;
+   
+	display: block;
+    font-size: 20px;
+    margin: 0px;
+
+}
+.topnav a {
+    float: right;
+    display: inline;
+    color:  rgb(202, 124, 73);
+    text-align: center;
+    padding: 10px ;
+    text-decoration: none;
+	margin:10px;
+}
+.topnav p{
+    float: left;
+    margin: 5px;
+    color:  rgb(202, 124, 73);
+    box-align:center-right
+    }
+.block{
+   
+    display: inline-block;
+    width: 70%;
+    height: 57.9%;
+    margin-top: 50px;
+    margin-left: 550px;
+   
+    padding-left: 70px;
+    padding-right: 70px;
+    color:rgb(192, 11, 11);
+    font-size: 20px;
+}    
+.block h1{
+    color: rgb(202, 124, 73);
+    
+    font-size: 4rem;
+
+}
+.block h2{
+    color:rgb(0, 0, 0);
+    opacity: 2;
+    font-size: 3rem;
+
+}
+.block button{
+    color: white;
+   background-color:rgb(192, 11, 11);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+.mini{
+    font-size: 10px;
+}

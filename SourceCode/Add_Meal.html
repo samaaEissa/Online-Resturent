@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Meal Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+        <link href="Add_Meal.css" rel="stylesheet" />
+        <script src="Validation_JS.js"></script>
+
+    </head>
+    <body>
+       
+            <div class="topnav">
+       
+              <a href="View.php">Menu</a>
+              <a href="Login.html" >Log Out</a>
+              <p> <img src="imag/Restaurant-logo.png" style="width: 100px;height: 100px;"> </p>
+            </div>
+
+             <form enctype="multipart/form-data" action="AddMeal_form.php" method="POST" >
+                       <div  id="AddMeal" class="shadow-lg  rounded bg-light text-center text-lg-start">
+                        <div class="row ">
+                           
+                          <div class=" col-md-6" >  
+                        
+                        <div class="flex-container">
+                          <div>
+                            
+                            <h1 class="text-center" >New Meal</h1>
+                        </div>
+                            <div class="row">
+                                 <div class="col-md-5 col-12 mb-4 mb-md-0">
+                                    <input class="form-control" type="text"  id="txtMName"name="MName" placeholder="Enter meal's name">
+                             
+                                      </div>
+                                <div class="col-md-6 col-lg-6  col-sm-6">
+                                    <input class="form-control" type="text" id="txtPrice" name="MPrice" placeholder="Enter meal's price">
+                            </div> </div>
+
+                            <input type="file" class="form-control-file" name="fileToUpload" id="fileToUpload">
+                            
+                            <button class="btn btn-info    text-capitalize"  id="btn_AddMeal"  value="Add_Meal" onclick="return validatMeal();" >Add Meal</button>
+                             </div> </div><div class="col-md-6 col-lg-6  col-sm-6 ">
+                              <img src="imag/fine-dining-cuisine-food.jpg" style="height:400px; width: 300; "/>
+                             </div> </div> </div>
+                    </form>
+                  <!-- footer begin-->
+<footer class="bg-light text-center text-lg-start">
+  <div class="container p-4 pb-0">
+   <form action="">   <div class="row">
+        <div class="col-auto mb-4 mb-md-0">
+         <p class="pt-2"><strong>Sign up for our newsletter</strong></p>
+       </div>
+       <div class="col-md-5 col-12 mb-4 mb-md-0">
+       
+         <div class="form-outline mb-4">
+           <input type="email" id="form5Example2" class="form-control" placeholder="Email address" />
+     </div> </div>
+       <div class="col-auto mb-4 mb-md-0"> 
+             <button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+       </div> </div> </form> </div>
+ <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2) ;height: 60px; padding: 20px;">
+   © 2020 Copyright: <a class="text-dark"> Samaa eissa</a>
+ </div>
+
+</footer>  
+<!-- footer end-->                               
+    </body>
+</html>
