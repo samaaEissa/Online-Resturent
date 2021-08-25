@@ -39,7 +39,7 @@ dynamic, and the back-end is written in php.
 
 ![](menue.PNG)
 
-![](C:/xampp/htdocs/Resturant Online/Bill.PNG)
+![](Bill.PNG)
 
  
 
